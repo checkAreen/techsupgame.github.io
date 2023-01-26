@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#canvas1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: 5px solid black;
+    background-color: rgb(253, 186, 222);
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#title{
+    display: block;
+    position: absolute;
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Bangers', cursive;
+    color: #fff;
+    z-index: 1000;
+}
+
+#subtitle{
+    display: block;
+    position: absolute;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Bangers', cursive;
+    color: #fff;
+    z-index: 1000;
+}
+
+#player_static, #wrench, #yell, #run_right, #run_left, #scream, #drop{
+    display: none;
+}
+
+#sup1, #sup2, #sup3, #sup4, #sup5{
+    display: none;
+}
+
+#bug1, #bug2, #bug3, #bug4, #bug5{
+    display: none;
+}
